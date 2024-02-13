@@ -1,0 +1,28 @@
+{
+  "name": "test_koa_email_integrator",
+  "version": "1.0.0",
+  "description": "koa email integrator",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Ivan Pikun <pikunivan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.14.0",
+    "@types/koa-router": "^7.4.8",
+    "dotenv": "^16.4.2",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0",
+    "passport-outlook": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/passport": "^1.0.16",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
